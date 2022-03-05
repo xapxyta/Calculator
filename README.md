@@ -1,2 +1,2 @@
 # Calculator
-Link xapxyta.github.io/Calculator/
+Link https://xapxyta.github.io/Calculator/

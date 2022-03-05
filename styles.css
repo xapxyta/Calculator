@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  height: 90vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#calculator {
+  margin: auto;
+  padding: 20px;
+  background-color: #9ea1af;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
+
+#display, button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  font: bold 3em 'Montserrat';
+  outline: none;
+}
+
+button:hover {
+  background-color: silver;
+}
+
+button:active {
+  background-color: gray;
+  box-shadow: none;
+  color: white;
+}
+
+#display {
+  width: 326px;
+  text-align: right;
+}
